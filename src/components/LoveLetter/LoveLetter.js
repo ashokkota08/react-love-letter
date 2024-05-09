@@ -36,9 +36,12 @@ const LoveLetter = () => {
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
         Gnanika na andhala menaka...🖤,<br />
-        never have i been so blessed as to fall in love with someone as wonderful as you...<br />i loveeee youuuu :)<br />
-        always yours,<br />
-        @niihaaarrrr
+        Nuvvante nak chala ishtame potti...☺<br />
+        I would have been completely lost if i dont find you<br />
+        Thank's for being the reason for my Happiness 🫂<br />
+        I loveeee youuuu :)<br />
+        Always yours,<br />
+        @Ashokk
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
